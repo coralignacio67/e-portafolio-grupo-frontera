@@ -1,0 +1,129 @@
+<!-- Agregar Bebas Neue y Poppins desde Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi e-Portafolio | Grupo Frontera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header con el logo y el menú -->
+    <header>
+    <div class="header-inner">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="images/ChatGPT Image 28 nov 2025, 15_17_52.png" alt="Logo Grupo Frontera">
+            </a>
+        </div>
+
+        <nav>
+    <ul>
+        <li><a href="documentos.html">Documentos</a></li>
+                <li><a href="diapositivas.html">Diapositivas</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+    </ul>
+</nav>
+
+    </div>
+</header>
+
+    <!-- Sección de bienvenida -->
+    <section id="inicio">
+        <div class="bienvenida">
+            <h1>Bienvenido al e-portafolio Grupo Frontera</h1>
+        </div>
+    </section>
+
+    <!-- Sección de información (rectángulos gris oscuro) -->
+            
+    <section id="informacion">
+
+    <!-- Quiénes somos con imagen al lado -->
+    <div id="nosotros" class="offset-scroll"></div>
+    <div class="info-rectangulo quienes-somos">
+
+        <div class="texto">
+            <h2>¿Quiénes somos?</h2>
+            <p>
+                Somos Grupo Frontera, un grupo de estudiantes de la ePC apasionados por el estudio de la economía, negocios internacionales. Cada integrante aporta habilidades únicas que enriquecen el trabajo en equipo.
+                Juntos buscamos no solo cumplir con las tareas, sino ir más allá: entender a fondo los temas, compartir ideas, y aplicarlos en contextos reales. Nuestro enfoque se centra en integrar conocimientos teóricos con aplicaciones prácticas en el mundo empresarial.
+                </p>
+        </div>
+
+        <!-- Cambiá la ruta de la imagen aquí -->
+        <img src="images/images.png" class="imagen-quienes" alt="Imagen del equipo">
+
+    </div>
+
+    <!-- Nuestro Equipo -->
+    <div class="info-rectangulo">
+        <h2>Nuestro equipo</h2>
+        <p>Aquí te presentamos a los miembros de nuestro equipo.</p>
+    <div class="equipo-lista">
+
+    <div class="miembro">
+        <img src="images/daniel.jpg" alt="Daniel Chávez">
+        <h3>Daniel Chávez</h3>
+        <p class="carrera">Estudiante de Negocios Internacionales</p>
+        <p class="descripcion">Soy Daniel Chávez, estudiante de Negocios Internacionales, una persona práctica, curiosa y con mentalidad emprendedora. Me gustan los negocios, analizar ideas y encontrar soluciones simples pero efectivas. Disfruto aprender cosas nuevas, mejorar cada día y buscar oportunidades donde otros no las ven.
+También valoro mucho a las personas cercanas y siempre trato de apoyar, escuchar y mantener una actitud tranquila incluso en momentos difíciles. Me motiva crear valor con ideas claras, reales y bien pensadas.</p>
+    </div>
+
+    <div class="miembro">
+        <img src="images/joaquin.jpg" alt="Joaquín Chipana">
+        <h3>Joaquín Chipana</h3>
+        <p class="carrera">Estudiante de Negocios Internacionales</p>
+        <p class="descripcion">Soy Joaquin Mijael, un estudiante de Negocios Internacionales con una personalidad animada y llena de iniciativa. Me gustan los negocios, las fiestas, el fernet y la historia, y siempre tengo una actitud creativa para enfrentar cualquier desafío. Me apasiona encontrar soluciones diferentes, pensar fuera de lo común y generar valor con ideas frescas y bien fundamentadas.</p>
+    </div>
+
+    <div class="miembro">
+        <img src="images/andres.jpg" alt="Andrés Coronel">
+        <h3>Andrés Coronel</h3>
+        <p class="carrera">Estudiante de Negocios Internacionales</p>
+        <p class="descripcion">Soy una persona creativa y ocurrente que destaca por su habilidad para la resolución de problemas, aportando soluciones innovadoras y eficaces. Disfruto trabajar en equipo y me encuentro en constante aprendizaje de nuevas habilidades, buscando siempre aplicar los conocimientos que se alinean con mis intereses personales para un desarrollo continuo.</p>
+    </div>
+
+    <div class="miembro">
+        <img src="images/adrian.jpg" alt="Adrián Mamani">
+        <h3>Adrián Mamani</h3>
+        <p class="carrera">Estudiante de Negocios Internacionales</p>
+        <p class="descripcion">Soy Adrian Mamani, estudiante de negocios internacionales. Me encanta aprender nuevas cosas, la tecnología internacional, la música, el voleibol, las artes marciales, la lectura, la comida y la ganadería.
+Me importa mucho la disciplina y como los pequeños pasos incluyen el futuro. Todo lo que deseo es tener un gran futuro y salir de la carrera.</p>
+    </div>
+
+    <div class="miembro">
+        <img src="images/danielpablo.jpg" alt="Daniel Pablo">
+        <h3>Daniel Pablo</h3>
+        <p class="carrera">Estudiante de Negocios Internacionales</p>
+        <p class="descripcion">Soy un estudiante de Negocios Internacionales con una personalidad animada, innovadora y una actitud creativa ante los desafíos. Me apasiona encontrar soluciones distintas a los problemas, siempre buscando generar valor a través de ideas frescas y bien fundamentadas</p>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+
+    <!-- Sección del chatbot -->
+    <div class="chatbot">
+        <button class="chatbot-btn" onclick="toggleChatbot()" aria-label="Abrir chatbot">Chatbot</button>
+        <div class="chatbot-content">
+            <iframe src="https://bot.writesonic.com/share/bot/97a42e15-9224-4cbb-9db3-fcb3644714e0" width="400" height="600" title="Chatbot"></iframe>
+        </div>
+    </div>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="script.js"></script>
+<footer>
+    © 2025 Grupo Frontera — Todos los derechos reservados
+</footer>
+
+</body>
+</html>

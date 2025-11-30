@@ -1,0 +1,86 @@
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos | Grupo Frontera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/ChatGPT Image 28 nov 2025, 15_17_52.png" alt="Grupo Frontera">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="documentos.html">Documentos</a></li>
+                <li><a href="diapositivas.html">Diapositivas</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="height:140px;"></div>
+
+    <!-- CONTENIDO -->
+    <section id="documentos-contenido">
+
+        <!-- APUNTES -->
+        <div class="info-rectangulo">
+            <h2>APUNTES</h2>
+
+            <div class="lista-docs">
+                <button class="item-doc" onclick="abrirDocumento('https://drive.google.com/file/d/1jNuq7YEm7S0eZGHwF0haEXGkmuVHhTSb/preview')">Acción Colectiva</button>
+                <button class="item-doc" onclick="abrirDocumento('https://drive.google.com/file/d/1oWh_00bcR4ajsfNQ-LjVG0M1Bdkt9QAT/preview')">Realismo</button>
+                <button class="item-doc" onclick="abrirDocumento('https://drive.google.com/file/d/1Ff3ajOl-Po_n6UufxUVWjf7WdOC1kN5k/preview')">Idealismo</button>
+                <button class="item-doc" onclick="abrirDocumento('https://drive.google.com/file/d/1XJLhK5wVYfhX_nLh6rgOFIdah4-EO-vJ/preview')">Marxismo</button>
+            </div>
+        </div>
+
+        <!-- INFORMES -->
+        <div class="info-rectangulo">
+            <h2>INFORMES</h2>
+
+            <div class="lista-docs">
+                <button class="item-doc" onclick="abrirDocumento('LINK')">Guerra del Pacífico — Realismo</button>
+                <button class="item-doc" onclick="abrirDocumento('LINK')">Democracia 1982 — Idealismo</button>
+                <button class="item-doc" onclick="abrirDocumento('LINK')">Revolución del 52 — Marxismo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL PDF -->
+    <div id="modal-pdf">
+        <div class="modal-contenido">
+            <button class="cerrar-modal" onclick="cerrarModal()">✖</button>
+            <iframe id="visor-pdf" src=""></iframe>
+        </div>
+    </div>
+
+    <!-- CHATBOT -->
+    <div class="chatbot">
+        <button class="chatbot-btn" onclick="toggleChatbot()">Chatbot</button>
+        <div class="chatbot-content">
+            <iframe src="https://bot.writesonic.com/share/bot/97a42e15-9224-4cbb-9db3-fcb3644714e0" width="400" height="600"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="documentos.js"></script>
+<footer>
+    © 2025 Grupo Frontera — Todos los derechos reservados
+</footer>
+
+</body>
+</html>
